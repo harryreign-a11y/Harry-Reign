@@ -215,41 +215,41 @@ html {
 
 /* HOME */
 .page-home .hero-bg {
-  background-image: url("./images/harry.png");
+  background-image: url("../images/harry.png");
 }
 
 /* ABOUT */
 .page-about .hero-bg {
-  background-image: url("./images/harry-about.png");
+  background-image: url("../images/harry-about.png");
 }
 
 /* DISCOGRAPHY */
 .page-discography .hero-bg {
-  background-image: url("./images/harry-about.png");
+  background-image: url("../images/harry-about.png");
 }
 
 /* BIO */
 .page-bio .hero-bg {
-  background-image: url("./images/harry.png");
+  background-image: url("../images/harry.png");
 }
 
 .about-bg {
   position: absolute;
   inset: 0;
-  background: url("./images/harry.png") center / cover no-repeat;
+  background: url("../images/harry.png") center / cover no-repeat;
   z-index: 1;
 }
 .discography-bg {
   position: absolute;
   inset: 0;
-  background: url("./images/harry.png") center / cover no-repeat;
+  background: url("../images/harry.png") center / cover no-repeat;
   z-index: 1;
 }
 
 .bio-bg {
   position: absolute;
   inset: 0;
-  background: url("./images/harry.png") center / cover no-repeat;
+  background: url("../images/harry.png") center / cover no-repeat;
   z-index: 1;
 }
 
