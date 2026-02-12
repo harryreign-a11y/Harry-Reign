@@ -215,12 +215,12 @@ html {
 
 /* HOME */
 .page-home .hero-bg {
-  background-image: url("../images/harry.png");
+  background-image: url("./images/harry.png");
 }
 
 /* ABOUT */
 .page-about .hero-bg {
-  background-image: url("../images/harry-about.png");
+  background-image: url("./images/harry-about.png");
 }
 
 /* DISCOGRAPHY */
