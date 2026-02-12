@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discography</title>
+  <meta name="description" content="Harry Reign â€“ Kenyan musician, Afropop/Afrobeat artist, and music educator from Nairobi. Original tracks, piano/guitar/vocal lessons.">
+  <meta name="author" content="Harry Reign">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- add a favicon later -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body class="page-discography">
+
+
+  <canvas id="particles"></canvas>
+
+<header class="top-header">
+  <div class="socials">
+    <a href="https://open.spotify.com/artist/1ASVtIFUjIZEmcJXyVwXWi?si=Nl8QNc7rQraB-NEIIsA9gQ" target="_blank" rel="noopener"><i class="fa-brands fa-spotify" aria-hidden="true"></i><span class="sr-only">Spotify</span></a>
+    <a href="#"><i class="fa-brands fa-apple" aria-hidden="true"></i><span class="sr-only">Apple</span></a>
+    <a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+    <a href="https://youtube.com/@harryreign?si=TxLb8Szc9DKo4K2g" target="_blank" rel="noopener"><i class="fa-brands fa-youtube" aria-hidden="true"></i><span class="sr-only">YouTube</span></a>
+  </div>
+</header>
+
+<div class="layout">
+
+  <aside class="side-panel">
+    <div class="side-panel-content">
+
+                        <div class="player">
+        <p class="player-title">Now Playing</p>
+        <p class="player-current" aria-live="polite">Awino</p>
+        <audio id="audio" preload="metadata"></audio>
+
+        <div class="player-progress-wrap">
+          <span class="time-current">00:00</span>
+          <input class="player-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Seek" />
+          <span class="time-duration">00:00</span>
+        </div>
+
+        <div class="player-controls" role="group" aria-label="Audio controls">
+          <button type="button" class="player-btn" data-action="prev" aria-label="Previous" title="Previous">&#x23EE;</button>
+          <button type="button" class="player-btn player-btn-main" data-action="toggle" aria-label="Play" title="Play">&#x25B6;</button>
+          <button type="button" class="player-btn" data-action="next" aria-label="Next" title="Next">&#x23ED;</button>
+        </div>
+
+                <ul class="playlist">
+          <li data-src="audio/Awino.mp3">Awino</li>
+          <li data-src="audio/Furaha-ft-Iminza.mp3">Furaha ft Iminza</li>
+          <li data-src="audio/Harry Reign - Wewe.mp3">Wewe</li>
+          <li data-src="audio/Harry Reign-Fala Wa Mapenzi(Feat Leez).mp3">Fala Wa Mapenzi (Feat Leez)</li>
+          <li data-src="audio/Harry Reign-Mos Mos.mp3">Mos Mos</li>
+          <li data-src="audio/Harry Reign-Si Wako(Feat Mr.Mistariful).mp3">Si Wako (Feat Mr. Mistariful)</li>
+          <li data-src="audio/Ndoto.mp3">Ndoto</li>
+        </ul>
+      </div>
+
+
+
+
+
+
+      <nav class="side-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="discography.html">Discography</a>
+        <a href="bio.html">Biography</a>
+        <a href="videos.html">Music Videos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+    </div>
+  </aside>
+
+
+   <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <h1 class="hero-name">Harry Reign</h1>
+  </section>
+
+</div> <!-- closes .layout -->
+
+<footer>
+  <p>Â© 2026 Harry Reign Â· Built with intention</p>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
