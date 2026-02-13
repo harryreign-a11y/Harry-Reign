@@ -215,22 +215,22 @@ html {
 
 /* HOME */
 .page-home .hero-bg {
-  background-image: url("../images/harry.png");
+  background-image: url("./images/harry.png");
 }
 
 /* ABOUT */
 .page-about .hero-bg {
-  background-image: url("../images/harry-about.png");
+  background-image: url("./images/harry-about.png");
 }
 
 /* DISCOGRAPHY */
 .page-discography .hero-bg {
-  background-image: url("../images/harry-about.png");
+  background-image: url("./images/harry-about.png");
 }
 
 /* BIO */
 .page-bio .hero-bg {
-  background-image: url("../images/harry.png");
+  background-image: url("./images/harry.png");
 }
 
 .about-bg {
@@ -605,13 +605,13 @@ section.visible {
 .streaming-links a:hover {
   text-decoration: underline;
 }
-.page-home .hero-bg { background-image: url("../images/harry.png") !important; }
-.page-about .hero-bg { background-image: url("../images/harry-about.png") !important; }
-.page-discography .hero-bg { background-image: url("../images/harry-about.png") !important; }
+.page-home .hero-bg { background-image: url("./images/harry.png") !important; }
+.page-about .hero-bg { background-image: url("./images/harry-about.png") !important; }
+.page-discography .hero-bg { background-image: url("./images/harry-about.png") !important; }
 
 /* Non-home pages use About background */
 body:not(.page-home) .hero-bg {
-  background-image: url("../images/harry-about.png") !important;
+  background-image: url("./images/harry-about.png") !important;
 }
 
 /* Home viewport behavior */
